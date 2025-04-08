@@ -9,9 +9,9 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff; /* Light blue background for a softer look */
+            background-color: #f0f8ff;
             color: #333;
-            line-height: 1.7; /* Slightly increased line height for better readability */
+            line-height: 1.7;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -20,27 +20,27 @@
         header {
             background-color: #007bff;
             color: white;
-            padding: 50px 0; /* Increased padding for more visual space */
+            padding: 50px 0;
             text-align: center;
-            margin-bottom: 40px; /* Increased margin for separation */
+            margin-bottom: 40px;
             width: 100%;
         }
         header h1 {
-            font-size: 3em; /* Larger heading for better visibility */
+            font-size: 3em;
             margin-bottom: 15px;
-            font-weight: bold; /* Make the heading stand out */
+            font-weight: bold;
         }
         header p {
-            font-size: 1.2em; /* Slightly larger subheading */
-            color: #e0f7fa; /* Lighter text for contrast */
+            font-size: 1.2em;
+            color: #e0f7fa;
         }
         main {
             padding: 40px;
-            background-color: #fff; /* White container background */
-            border-radius: 12px; /* More rounded corners */
-            box-shadow: 0 0 25px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
             text-align: center;
-            max-width: 850px; /* Slightly wider container */
+            max-width: 850px;
             width: 95%;
         }
         .logo-link {
@@ -49,31 +49,31 @@
         }
         .logo {
             width: 100%;
-            max-width: 350px; /* Slightly larger max width for the logo */
+            max-width: 350px;
             height: auto;
             border-radius: 12px;
             object-fit: contain;
-            max-height: 400px; /* Slightly larger max height for the logo */
+            max-height: 400px;
         }
         .app-summary {
-            font-size: 1.15em; /* Slightly larger summary text */
+            font-size: 1.15em;
             color: #555;
             margin-bottom: 40px;
-            text-align: left; /* Align summary text to the left for better reading flow */
+            text-align: left;
         }
         .app-summary h2 {
-            color: #007bff; /* Highlight the section title */
+            color: #007bff;
             margin-bottom: 15px;
-            text-align: center; /* Center the "About Impact App" heading */
+            text-align: center;
         }
         .download-button {
             display: inline-block;
             background-color: #28a745;
             color: white;
-            padding: 18px 35px; /* Larger button */
+            padding: 18px 35px;
             text-decoration: none;
-            border-radius: 10px; /* More rounded button */
-            font-size: 1.3em; /* Larger font size for the button */
+            border-radius: 10px;
+            font-size: 1.3em;
             font-weight: bold;
             transition: background-color 0.3s ease;
         }
@@ -81,14 +81,24 @@
             background-color: #1e7e34;
         }
         footer {
-            margin-top: 50px;
-            padding: 30px 0;
+            margin-top: 60px; /* Increased top margin for more separation */
+            padding: 40px 0; /* Increased padding */
             text-align: center;
-            color: #777;
-            font-size: 0.95em;
+            background-color: #e9ecef; /* A light gray background for the footer */
+            border-top: 2px solid #ced4da; /* More visible top border */
+            font-size: 1.1em; /* Slightly larger overall font size in the footer */
+            color: #495057; /* Darker text color */
             width: 100%;
-            background-color: #f8f9fa; /* Light background for the footer */
-            border-top: 1px solid #eee; /* Subtle top border */
+        }
+        .creator-names {
+            font-size: 1.3em; /* Larger font size for the names */
+            font-weight: bold; /* Make the names bold */
+            color: #007bff; /* Highlight the names with the primary blue color */
+            margin-bottom: 10px; /* Add some space below the names */
+        }
+        .dedication-text {
+            font-style: italic; /* Add emphasis to the dedication text */
+            color: #6c757d;
         }
     </style>
 </head>
@@ -114,7 +124,12 @@
     </main>
 
     <footer>
-        Created by Victoria Hope Nyaphono and Ssali Ibrahim, dedicated to fostering positive impact.
+        <div class="creator-names">
+            Victoria Hope Nyaphono and Ssali Ibrahim
+        </div>
+        <div class="dedication-text">
+            Dedicated to fostering positive impact.
+        </div>
     </footer>
 </body>
 </html>
